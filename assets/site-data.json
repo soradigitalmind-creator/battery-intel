@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "entities": 51,
+    "systems": 39,
+    "claims": 40,
+    "sources": 40,
+    "topics": 1,
+    "properties": 7
+  },
+  "manifest": {
+    "pipeline": "openalex_only",
+    "inputs": {
+      "input_file": null,
+      "input_glob": "out_sources/extracted/*.extracted.jsonl"
+    },
+    "counts": {
+      "input_extractions": 40,
+      "entities": 51,
+      "systems": 39,
+      "claims": 40,
+      "sources": 40,
+      "topics": 1,
+      "review_queue": 30
+    },
+    "notes": {
+      "lens_removed": true,
+      "source_types": [
+        "paper"
+      ]
+    }
+  },
+  "alias_count": 53
+}

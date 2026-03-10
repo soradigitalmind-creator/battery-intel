@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>lithium-ion battery · Battery Intelligence Database</title>
+<style>
+    :root {
+      --bg: #0b0d10;
+      --panel: #12161b;
+      --panel2: #171c22;
+      --text: #e8edf3;
+      --muted: #99a4b3;
+      --line: #25303a;
+      --link: #8ab4ff;
+      --accent: #7dd3fc;
+      --badge: #202832;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 24px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+      margin-bottom: 20px; padding: 16px 18px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+    }
+    .nav .brand { font-weight: 700; margin-right: 10px; }
+    .title { margin: 10px 0 18px; font-size: 1.9rem; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+    .kpi {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+    .kpi .item {
+      background: var(--panel2);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+    }
+    .label { color: var(--muted); font-size: 0.85rem; }
+    .value { font-size: 1.4rem; font-weight: 700; margin-top: 4px; }
+    .section-title { margin: 30px 0 12px; font-size: 1.2rem; }
+    .small { color: var(--muted); font-size: 0.9rem; }
+    .badge {
+      display: inline-block; padding: 4px 10px; border-radius: 999px;
+      background: var(--badge); border: 1px solid var(--line); margin-right: 6px; margin-bottom: 6px; font-size: 0.85rem;
+    }
+    .table-wrap {
+      width: 100%; overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+    }
+    table { width: 100%; border-collapse: collapse; min-width: 700px; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { position: sticky; top: 0; background: var(--panel2); }
+    code.inline {
+      background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 2px 6px;
+    }
+    .list { display: grid; gap: 8px; }
+    .row {
+      background: var(--panel2); border: 1px solid var(--line); border-radius: 14px; padding: 12px;
+    }
+    .notice {
+      background: #10202a; border: 1px solid #244150; color: #cfefff;
+      border-radius: 14px; padding: 12px;
+    }
+    input.search-box {
+      width: 100%; padding: 12px 14px; border-radius: 12px;
+      border: 1px solid var(--line); background: var(--panel2); color: var(--text);
+    }
+    </style>
+</head>
+<body>
+<div class="wrap">
+
+    <div class="nav">
+      <div class="brand"><a href="../index.html">Battery Intelligence Database</a></div>
+      <a href="../topics/index.html">Topics</a>
+      <a href="../entities/index.html">Entities</a>
+      <a href="../systems/index.html">Systems</a>
+      <a href="../properties/index.html">Properties</a>
+    </div>
+    
+<h1 class="title">lithium-ion battery</h1>
+
+        <div class="card"><div class="kpi">
+          <div class="item"><div class="label">Sources</div><div class="value">40</div></div>
+          <div class="item"><div class="label">Entities</div><div class="value">51</div></div>
+          <div class="item"><div class="label">Systems</div><div class="value">39</div></div>
+          <div class="item"><div class="label">Claims</div><div class="value">40</div></div>
+        </div></div>
+        <h2 class="section-title">Top properties</h2>
+        <div class='table-wrap'><table><thead><tr><th>Property</th><th>Claims</th></tr></thead><tbody><tr><td>other</td><td>20</td></tr><tr><td>reversible_capacity</td><td>9</td></tr><tr><td>rate_capability</td><td>5</td></tr><tr><td>initial_capacity</td><td>2</td></tr><tr><td>cycle_count</td><td>2</td></tr><tr><td>energy_density</td><td>1</td></tr><tr><td>cycle_retention</td><td>1</td></tr></tbody></table></div>
+        <h2 class="section-title">Linked entities</h2>
+        <div class='table-wrap'><table><thead><tr><th>Entity</th><th>Type</th><th>Evidence</th></tr></thead><tbody><tr><td><a href="../entities/add-carbon-materials.html">carbon materials</a></td><td>additive</td><td>1</td></tr><tr><td><a href="../entities/add-graphene.html">graphene</a></td><td>additive</td><td>1</td></tr><tr><td><a href="../entities/add-metal-nanoparticles.html">metal nanoparticles</a></td><td>additive</td><td>1</td></tr><tr><td><a href="../entities/add-metal-oxides.html">metal oxides</a></td><td>additive</td><td>1</td></tr><tr><td><a href="../entities/add-polymers.html">polymers</a></td><td>additive</td><td>1</td></tr><tr><td><a href="../entities/anod-anatase-tio2.html">anatase tio2</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-anode.html">anode</a></td><td>anode</td><td>3</td></tr><tr><td><a href="../entities/anod-boron-doped-graphene.html">boron-doped graphene</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-carbon.html">carbon</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-carbon-anode.html">carbon anode</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-carbon-nanotubes.html">carbon nanotubes</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-cobalt-oxide.html">cobalt oxide</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-conversion-type-anode.html">conversion-type anode</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-fe3o4-c.html">fe3o4/c</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-graphene.html">graphene</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-graphite-anode.html">graphite anode</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-inorganic-anode.html">inorganic anode</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-iron-oxide.html">iron oxide</a></td><td>anode</td><td>2</td></tr><tr><td><a href="../entities/anod-metal-nitride.html">metal nitride</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-metal-oxide.html">metal oxide</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-metal-sulfide.html">metal sulfide</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-mn3o4.html">mn3o4</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-nano-carbon.html">nano-carbon</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-nitrogen-doped-graphene.html">nitrogen-doped graphene</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-reduced-graphene-oxide.html">reduced graphene oxide</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-rutile-tio2.html">rutile tio2</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-silicon-dioxide.html">silicon dioxide</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-silicon-monoxide.html">silicon monoxide</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-silicon-oxide.html">silicon oxide</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-silicon-oxycarbide.html">silicon oxycarbide</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-sno2.html">sno2</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-tin.html">tin</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-tin-based-anode.html">tin-based anode</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-tin-dioxide.html">tin dioxide</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-tin-dioxide-carbon-composite.html">tin dioxide carbon composite</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-tin-metal-carbon-composite.html">tin metal carbon composite</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-tio2.html">tio2</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-tio2-b.html">tio2 (b)</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-titanium-dioxide.html">titanium dioxide</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/anod-transition-metal-oxides.html">transition-metal oxides</a></td><td>anode</td><td>1</td></tr><tr><td><a href="../entities/cath-cathode.html">cathode</a></td><td>cathode</td><td>5</td></tr><tr><td><a href="../entities/cath-high-voltage-cathode.html">high-voltage cathode</a></td><td>cathode</td><td>1</td></tr><tr><td><a href="../entities/cath-inorganic-cathode.html">inorganic cathode</a></td><td>cathode</td><td>1</td></tr><tr><td><a href="../entities/cath-layered-oxide-cathode.html">layered oxide cathode</a></td><td>cathode</td><td>1</td></tr><tr><td><a href="../entities/cath-lithium-iron-phosphate.html">lithium iron phosphate</a></td><td>cathode</td><td>1</td></tr><tr><td><a href="../entities/cath-nmc.html">NMC</a></td><td>cathode</td><td>1</td></tr><tr><td><a href="../entities/other-carbon.html">carbon</a></td><td>other</td><td>1</td></tr><tr><td><a href="../entities/other-lithium.html">lithium</a></td><td>other</td><td>1</td></tr><tr><td><a href="../entities/other-porous-electrode.html">porous electrode</a></td><td>other</td><td>1</td></tr><tr><td><a href="../entities/other-sodium.html">sodium</a></td><td>other</td><td>1</td></tr></tbody></table></div>
+        <h2 class="section-title">Linked systems</h2>
+        <div class='table-wrap'><table><thead><tr><th>System</th><th>Components</th><th>Sources</th></tr></thead><tbody><tr><td><a href="../systems/sys-0e0801004f7a2d33.html">sys_0e0801004f7a2d33</a></td><td>0</td><td>1</td></tr><tr><td><a href="../systems/sys-1a182c80188cf802.html">sys_1a182c80188cf802</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-2255fbdbeb1486b6.html">sys_2255fbdbeb1486b6</a></td><td>0</td><td>1</td></tr><tr><td><a href="../systems/sys-23d7b6758a37e655.html">sys_23d7b6758a37e655</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-26e699ea1a48422c.html">sys_26e699ea1a48422c</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-2707fb01a1d45d79.html">sys_2707fb01a1d45d79</a></td><td>0</td><td>1</td></tr><tr><td><a href="../systems/sys-326e030f4dba0fad.html">sys_326e030f4dba0fad</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-3c0eb244a5e86738.html">sys_3c0eb244a5e86738</a></td><td>2</td><td>1</td></tr><tr><td><a href="../systems/sys-3c9ed6eb3089002e.html">sys_3c9ed6eb3089002e</a></td><td>2</td><td>1</td></tr><tr><td><a href="../systems/sys-40a0a338edbf9212.html">sys_40a0a338edbf9212</a></td><td>2</td><td>1</td></tr><tr><td><a href="../systems/sys-46a5201fdc9bb87d.html">sys_46a5201fdc9bb87d</a></td><td>8</td><td>1</td></tr><tr><td><a href="../systems/sys-5be8dd38d46cefd1.html">sys_5be8dd38d46cefd1</a></td><td>5</td><td>1</td></tr><tr><td><a href="../systems/sys-6824315860e2a513.html">sys_6824315860e2a513</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-709e5ca0b9c4382a.html">sys_709e5ca0b9c4382a</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-75f6f78b2971b129.html">sys_75f6f78b2971b129</a></td><td>0</td><td>1</td></tr><tr><td><a href="../systems/sys-762eff8c9d8c4fef.html">sys_762eff8c9d8c4fef</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-77db61cedf0c2407.html">sys_77db61cedf0c2407</a></td><td>0</td><td>1</td></tr><tr><td><a href="../systems/sys-7a138a0dbd000858.html">sys_7a138a0dbd000858</a></td><td>0</td><td>1</td></tr><tr><td><a href="../systems/sys-8e94016d92fc1d9d.html">sys_8e94016d92fc1d9d</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-91b6214a973d704d.html">sys_91b6214a973d704d</a></td><td>2</td><td>1</td></tr><tr><td><a href="../systems/sys-9638fbc6cba3b51a.html">sys_9638fbc6cba3b51a</a></td><td>1</td><td>2</td></tr><tr><td><a href="../systems/sys-98551ffbb36ffe7b.html">sys_98551ffbb36ffe7b</a></td><td>2</td><td>1</td></tr><tr><td><a href="../systems/sys-9ceb78816e06c660.html">sys_9ceb78816e06c660</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-a134dcaf8e2630e3.html">sys_a134dcaf8e2630e3</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-aa1223d4657dbd4c.html">sys_aa1223d4657dbd4c</a></td><td>4</td><td>1</td></tr><tr><td><a href="../systems/sys-b0fcd4bdd0698702.html">sys_b0fcd4bdd0698702</a></td><td>2</td><td>1</td></tr><tr><td><a href="../systems/sys-b204750433cd302c.html">sys_b204750433cd302c</a></td><td>0</td><td>1</td></tr><tr><td><a href="../systems/sys-c94f85826c49e94f.html">sys_c94f85826c49e94f</a></td><td>2</td><td>1</td></tr><tr><td><a href="../systems/sys-cabf302104e11c08.html">sys_cabf302104e11c08</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-cd45dc30f3c0e82c.html">sys_cd45dc30f3c0e82c</a></td><td>4</td><td>1</td></tr><tr><td><a href="../systems/sys-cf0b009606ab8cee.html">sys_cf0b009606ab8cee</a></td><td>2</td><td>1</td></tr><tr><td><a href="../systems/sys-d093425c83b8c7c9.html">sys_d093425c83b8c7c9</a></td><td>4</td><td>1</td></tr><tr><td><a href="../systems/sys-d748792f638f4c6c.html">sys_d748792f638f4c6c</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-da114d3b9691e5b3.html">sys_da114d3b9691e5b3</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-e03773a28a0f4038.html">sys_e03773a28a0f4038</a></td><td>0</td><td>1</td></tr><tr><td><a href="../systems/sys-e7dd1c9438f7b8c2.html">sys_e7dd1c9438f7b8c2</a></td><td>0</td><td>1</td></tr><tr><td><a href="../systems/sys-ec34f4ec718b7448.html">sys_ec34f4ec718b7448</a></td><td>0</td><td>1</td></tr><tr><td><a href="../systems/sys-f88391634e146e0c.html">sys_f88391634e146e0c</a></td><td>1</td><td>1</td></tr><tr><td><a href="../systems/sys-fc4cc8bf69591aad.html">sys_fc4cc8bf69591aad</a></td><td>1</td><td>1</td></tr></tbody></table></div>
+        <h2 class="section-title">Linked sources</h2>
+        <div class='table-wrap'><table><thead><tr><th>Source</th><th>Year</th></tr></thead><tbody><tr><td>Nano-sized transition-metal oxides as negative-electrode materials for lithium-ion batteries</td><td>2000</td></tr><tr><td>Carbon Coated Fe&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;4&lt;/sub&gt; Nanospindles as a Superior Anode Material for Lithium‐Ion Batteries</td><td>2008</td></tr><tr><td>Carbon anode materials for lithium ion batteries</td><td>2003</td></tr><tr><td>A review of application of carbon nanotubes for lithium ion battery anode material</td><td>2012</td></tr><tr><td>Role of surface coating on cathode materials for lithium-ion batteries</td><td>2010</td></tr><tr><td>An overview of positive-electrode materials for advanced lithium-ion batteries</td><td>2007</td></tr><tr><td>Tin‐Nanoparticles Encapsulated in Elastic Hollow Carbon Spheres for High‐Performance Anode Material in Lithium‐Ion Batteries</td><td>2008</td></tr><tr><td>Rational material design for ultrafast rechargeable lithium-ion batteries</td><td>2015</td></tr><tr><td>Surface reconstruction and chemical evolution of stoichiometric layered cathode materials for lithium-ion batteries</td><td>2014</td></tr><tr><td>Nano active materials for lithium-ion batteries</td><td>2010</td></tr><tr><td>Green energy storage materials: Nanostructured TiO2 and Sn-based anodes for lithium-ion batteries</td><td>2009</td></tr><tr><td>Mn&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;4&lt;/sub&gt;−Graphene Hybrid as a High-Capacity Anode Material for Lithium Ion Batteries</td><td>2010</td></tr><tr><td>Nanomaterials for Rechargeable Lithium Batteries</td><td>2008</td></tr><tr><td>Nanostructured metal oxide-based materials as advanced anodes for lithium-ion batteries</td><td>2012</td></tr><tr><td>Graphene in lithium ion battery cathode materials: A review</td><td>2013</td></tr><tr><td>Recent developments in cathode materials for lithium ion batteries</td><td>2009</td></tr><tr><td>Thermal runaway caused fire and explosion of lithium ion battery</td><td>2012</td></tr><tr><td>Novel lithium insertion material of LiCo1/3Ni1/3Mn1/3O2 for advanced lithium-ion batteries</td><td>2003</td></tr><tr><td>Graphene-Wrapped Fe&lt;sub&gt;3&lt;/sub&gt;O&lt;sub&gt;4&lt;/sub&gt; Anode Material with Improved Reversible Capacity and Cyclic Stability for Lithium Ion Batteries</td><td>2010</td></tr><tr><td>Recent advances in lithium ion battery materials</td><td>2000</td></tr><tr><td>Surface and Interface Engineering of Electrode Materials for Lithium‐Ion Batteries</td><td>2014</td></tr><tr><td>Recent developments in nanostructured anode materials for rechargeable lithium-ion batteries</td><td>2011</td></tr><tr><td>Towards greener and more sustainable batteries for electrical energy storage</td><td>2014</td></tr><tr><td>Electrode Materials for Rechargeable Sodium‐Ion Batteries: Potential Alternatives to Current Lithium‐Ion Batteries</td><td>2012</td></tr><tr><td>Doped Graphene Sheets As Anode Materials with Superhigh Rate and Large Capacity for Lithium Ion Batteries</td><td>2011</td></tr><tr><td>Development and challenges of LiFePO&lt;sub&gt;4&lt;/sub&gt;cathode material for lithium-ion batteries</td><td>2010</td></tr><tr><td>Porous Electrode Materials for Lithium‐Ion Batteries – How to Prepare Them and What Makes Them Special</td><td>2012</td></tr><tr><td>Recent progress in cathode materials research for advanced lithium ion batteries</td><td>2012</td></tr><tr><td>Two‐Dimensional Materials for Beyond‐Lithium‐Ion Batteries</td><td>2016</td></tr><tr><td>Recent Achievements on Inorganic Electrode Materials for Lithium-Ion Batteries</td><td>2015</td></tr><tr><td>Materials Challenges and Opportunities of Lithium Ion Batteries</td><td>2011</td></tr><tr><td>Lithium battery chemistries enabled by solid-state electrolytes</td><td>2017</td></tr><tr><td>High-voltage positive electrode materials for lithium-ion batteries</td><td>2017</td></tr><tr><td>Recent Developments on and Prospects for Electrode Materials with Hierarchical Structures for Lithium‐Ion Batteries</td><td>2017</td></tr><tr><td>Nanostructured Conversion-type Anode Materials for Advanced Lithium-Ion Batteries</td><td>2018</td></tr><tr><td>Materials for lithium-ion battery safety</td><td>2018</td></tr><tr><td>Silicon oxides: a promising family of anode materials for lithium-ion batteries</td><td>2018</td></tr><tr><td>Fast Charging of Lithium‐Ion Batteries: A Review of Materials Aspects</td><td>2021</td></tr><tr><td>From Materials to Cell: State-of-the-Art and Prospective Technologies for Lithium-Ion Battery Electrode Processing</td><td>2021</td></tr><tr><td>Anode materials for lithium-ion batteries: A review</td><td>2022</td></tr></tbody></table></div>
+        
+</div>
+</body>
+</html>

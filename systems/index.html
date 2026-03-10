@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Systems · Battery Intelligence Database</title>
+<style>
+    :root {
+      --bg: #0b0d10;
+      --panel: #12161b;
+      --panel2: #171c22;
+      --text: #e8edf3;
+      --muted: #99a4b3;
+      --line: #25303a;
+      --link: #8ab4ff;
+      --accent: #7dd3fc;
+      --badge: #202832;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 24px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+      margin-bottom: 20px; padding: 16px 18px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+    }
+    .nav .brand { font-weight: 700; margin-right: 10px; }
+    .title { margin: 10px 0 18px; font-size: 1.9rem; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+    .kpi {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+    .kpi .item {
+      background: var(--panel2);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+    }
+    .label { color: var(--muted); font-size: 0.85rem; }
+    .value { font-size: 1.4rem; font-weight: 700; margin-top: 4px; }
+    .section-title { margin: 30px 0 12px; font-size: 1.2rem; }
+    .small { color: var(--muted); font-size: 0.9rem; }
+    .badge {
+      display: inline-block; padding: 4px 10px; border-radius: 999px;
+      background: var(--badge); border: 1px solid var(--line); margin-right: 6px; margin-bottom: 6px; font-size: 0.85rem;
+    }
+    .table-wrap {
+      width: 100%; overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+    }
+    table { width: 100%; border-collapse: collapse; min-width: 700px; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { position: sticky; top: 0; background: var(--panel2); }
+    code.inline {
+      background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 2px 6px;
+    }
+    .list { display: grid; gap: 8px; }
+    .row {
+      background: var(--panel2); border: 1px solid var(--line); border-radius: 14px; padding: 12px;
+    }
+    .notice {
+      background: #10202a; border: 1px solid #244150; color: #cfefff;
+      border-radius: 14px; padding: 12px;
+    }
+    input.search-box {
+      width: 100%; padding: 12px 14px; border-radius: 12px;
+      border: 1px solid var(--line); background: var(--panel2); color: var(--text);
+    }
+    </style>
+</head>
+<body>
+<div class="wrap">
+
+    <div class="nav">
+      <div class="brand"><a href="../index.html">Battery Intelligence Database</a></div>
+      <a href="../topics/index.html">Topics</a>
+      <a href="../entities/index.html">Entities</a>
+      <a href="../systems/index.html">Systems</a>
+      <a href="../properties/index.html">Properties</a>
+    </div>
+    
+<h1 class="title">Systems</h1>
+<div class='table-wrap'><table><thead><tr><th>System</th><th>Type</th><th>Components</th><th>Sources</th><th>Preview</th></tr></thead><tbody><tr><td><a href="sys-9638fbc6cba3b51a.html">sys_9638fbc6cba3b51a</a></td><td>paper_system</td><td>1</td><td>2</td><td>cathode</td></tr><tr><td><a href="sys-0e0801004f7a2d33.html">sys_0e0801004f7a2d33</a></td><td>paper_system</td><td>0</td><td>1</td><td></td></tr><tr><td><a href="sys-1a182c80188cf802.html">sys_1a182c80188cf802</a></td><td>paper_system</td><td>1</td><td>1</td><td>NMC</td></tr><tr><td><a href="sys-2255fbdbeb1486b6.html">sys_2255fbdbeb1486b6</a></td><td>paper_system</td><td>0</td><td>1</td><td></td></tr><tr><td><a href="sys-23d7b6758a37e655.html">sys_23d7b6758a37e655</a></td><td>paper_system</td><td>1</td><td>1</td><td>graphene</td></tr><tr><td><a href="sys-26e699ea1a48422c.html">sys_26e699ea1a48422c</a></td><td>paper_system</td><td>1</td><td>1</td><td>fe3o4/c</td></tr><tr><td><a href="sys-2707fb01a1d45d79.html">sys_2707fb01a1d45d79</a></td><td>paper_system</td><td>0</td><td>1</td><td></td></tr><tr><td><a href="sys-326e030f4dba0fad.html">sys_326e030f4dba0fad</a></td><td>paper_system</td><td>1</td><td>1</td><td>graphite anode</td></tr><tr><td><a href="sys-3c0eb244a5e86738.html">sys_3c0eb244a5e86738</a></td><td>paper_system</td><td>2</td><td>1</td><td>graphene, iron oxide</td></tr><tr><td><a href="sys-3c9ed6eb3089002e.html">sys_3c9ed6eb3089002e</a></td><td>paper_system</td><td>2</td><td>1</td><td>lithium, sodium</td></tr><tr><td><a href="sys-40a0a338edbf9212.html">sys_40a0a338edbf9212</a></td><td>paper_system</td><td>2</td><td>1</td><td>mn3o4, reduced graphene oxide</td></tr><tr><td><a href="sys-46a5201fdc9bb87d.html">sys_46a5201fdc9bb87d</a></td><td>paper_system</td><td>8</td><td>1</td><td>anatase tio2, rutile tio2, tin dioxide, tin dioxide carbon composite</td></tr><tr><td><a href="sys-5be8dd38d46cefd1.html">sys_5be8dd38d46cefd1</a></td><td>paper_system</td><td>5</td><td>1</td><td>cobalt oxide, iron oxide, sno2, tio2</td></tr><tr><td><a href="sys-6824315860e2a513.html">sys_6824315860e2a513</a></td><td>paper_system</td><td>1</td><td>1</td><td>lithium iron phosphate</td></tr><tr><td><a href="sys-709e5ca0b9c4382a.html">sys_709e5ca0b9c4382a</a></td><td>paper_system</td><td>1</td><td>1</td><td>carbon nanotubes</td></tr><tr><td><a href="sys-75f6f78b2971b129.html">sys_75f6f78b2971b129</a></td><td>paper_system</td><td>0</td><td>1</td><td></td></tr><tr><td><a href="sys-762eff8c9d8c4fef.html">sys_762eff8c9d8c4fef</a></td><td>paper_system</td><td>1</td><td>1</td><td>layered oxide cathode</td></tr><tr><td><a href="sys-77db61cedf0c2407.html">sys_77db61cedf0c2407</a></td><td>paper_system</td><td>0</td><td>1</td><td></td></tr><tr><td><a href="sys-7a138a0dbd000858.html">sys_7a138a0dbd000858</a></td><td>paper_system</td><td>0</td><td>1</td><td></td></tr><tr><td><a href="sys-8e94016d92fc1d9d.html">sys_8e94016d92fc1d9d</a></td><td>paper_system</td><td>1</td><td>1</td><td>high-voltage cathode</td></tr><tr><td><a href="sys-91b6214a973d704d.html">sys_91b6214a973d704d</a></td><td>paper_system</td><td>2</td><td>1</td><td>boron-doped graphene, nitrogen-doped graphene</td></tr><tr><td><a href="sys-98551ffbb36ffe7b.html">sys_98551ffbb36ffe7b</a></td><td>paper_system</td><td>2</td><td>1</td><td>anode, cathode</td></tr><tr><td><a href="sys-9ceb78816e06c660.html">sys_9ceb78816e06c660</a></td><td>paper_system</td><td>1</td><td>1</td><td>conversion-type anode</td></tr><tr><td><a href="sys-a134dcaf8e2630e3.html">sys_a134dcaf8e2630e3</a></td><td>paper_system</td><td>1</td><td>1</td><td>porous electrode</td></tr><tr><td><a href="sys-aa1223d4657dbd4c.html">sys_aa1223d4657dbd4c</a></td><td>paper_system</td><td>4</td><td>1</td><td>carbon materials, metal nanoparticles, metal oxides, polymers</td></tr><tr><td><a href="sys-b0fcd4bdd0698702.html">sys_b0fcd4bdd0698702</a></td><td>paper_system</td><td>2</td><td>1</td><td>anode, cathode</td></tr><tr><td><a href="sys-b204750433cd302c.html">sys_b204750433cd302c</a></td><td>paper_system</td><td>0</td><td>1</td><td></td></tr><tr><td><a href="sys-c94f85826c49e94f.html">sys_c94f85826c49e94f</a></td><td>paper_system</td><td>2</td><td>1</td><td>inorganic anode, inorganic cathode</td></tr><tr><td><a href="sys-cabf302104e11c08.html">sys_cabf302104e11c08</a></td><td>paper_system</td><td>1</td><td>1</td><td>anode</td></tr><tr><td><a href="sys-cd45dc30f3c0e82c.html">sys_cd45dc30f3c0e82c</a></td><td>paper_system</td><td>4</td><td>1</td><td>metal nitride, metal oxide, metal sulfide, nano-carbon</td></tr><tr><td><a href="sys-cf0b009606ab8cee.html">sys_cf0b009606ab8cee</a></td><td>paper_system</td><td>2</td><td>1</td><td>carbon, tin</td></tr><tr><td><a href="sys-d093425c83b8c7c9.html">sys_d093425c83b8c7c9</a></td><td>paper_system</td><td>4</td><td>1</td><td>silicon dioxide, silicon monoxide, silicon oxide, silicon oxycarbide</td></tr><tr><td><a href="sys-d748792f638f4c6c.html">sys_d748792f638f4c6c</a></td><td>paper_system</td><td>1</td><td>1</td><td>carbon anode</td></tr><tr><td><a href="sys-da114d3b9691e5b3.html">sys_da114d3b9691e5b3</a></td><td>paper_system</td><td>1</td><td>1</td><td>cathode</td></tr><tr><td><a href="sys-e03773a28a0f4038.html">sys_e03773a28a0f4038</a></td><td>paper_system</td><td>0</td><td>1</td><td></td></tr><tr><td><a href="sys-e7dd1c9438f7b8c2.html">sys_e7dd1c9438f7b8c2</a></td><td>paper_system</td><td>0</td><td>1</td><td></td></tr><tr><td><a href="sys-ec34f4ec718b7448.html">sys_ec34f4ec718b7448</a></td><td>paper_system</td><td>0</td><td>1</td><td></td></tr><tr><td><a href="sys-f88391634e146e0c.html">sys_f88391634e146e0c</a></td><td>paper_system</td><td>1</td><td>1</td><td>solid-state electrolyte</td></tr><tr><td><a href="sys-fc4cc8bf69591aad.html">sys_fc4cc8bf69591aad</a></td><td>paper_system</td><td>1</td><td>1</td><td>transition-metal oxides</td></tr></tbody></table></div>
+</div>
+</body>
+</html>

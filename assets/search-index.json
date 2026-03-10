@@ -1,0 +1,688 @@
+[
+  {
+    "type": "topic",
+    "id": "lithium-ion-battery",
+    "title": "lithium-ion battery",
+    "url": "topics/lithium-ion-battery.html",
+    "summary": "sources=40, claims=40, entities=51"
+  },
+  {
+    "type": "entity",
+    "id": "add_carbon-materials",
+    "title": "carbon materials",
+    "url": "entities/add-carbon-materials.html",
+    "summary": "additive · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "add_graphene",
+    "title": "graphene",
+    "url": "entities/add-graphene.html",
+    "summary": "additive · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "add_metal-nanoparticles",
+    "title": "metal nanoparticles",
+    "url": "entities/add-metal-nanoparticles.html",
+    "summary": "additive · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "add_metal-oxides",
+    "title": "metal oxides",
+    "url": "entities/add-metal-oxides.html",
+    "summary": "additive · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "add_polymers",
+    "title": "polymers",
+    "url": "entities/add-polymers.html",
+    "summary": "additive · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_anatase-tio2",
+    "title": "anatase tio2",
+    "url": "entities/anod-anatase-tio2.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_anode",
+    "title": "anode",
+    "url": "entities/anod-anode.html",
+    "summary": "anode · evidence=3"
+  },
+  {
+    "type": "entity",
+    "id": "anod_boron-doped-graphene",
+    "title": "boron-doped graphene",
+    "url": "entities/anod-boron-doped-graphene.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_carbon",
+    "title": "carbon",
+    "url": "entities/anod-carbon.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_carbon-anode",
+    "title": "carbon anode",
+    "url": "entities/anod-carbon-anode.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_carbon-nanotubes",
+    "title": "carbon nanotubes",
+    "url": "entities/anod-carbon-nanotubes.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_cobalt-oxide",
+    "title": "cobalt oxide",
+    "url": "entities/anod-cobalt-oxide.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_conversion-type-anode",
+    "title": "conversion-type anode",
+    "url": "entities/anod-conversion-type-anode.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_fe3o4-c",
+    "title": "fe3o4/c",
+    "url": "entities/anod-fe3o4-c.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_graphene",
+    "title": "graphene",
+    "url": "entities/anod-graphene.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_graphite-anode",
+    "title": "graphite anode",
+    "url": "entities/anod-graphite-anode.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_inorganic-anode",
+    "title": "inorganic anode",
+    "url": "entities/anod-inorganic-anode.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_iron-oxide",
+    "title": "iron oxide",
+    "url": "entities/anod-iron-oxide.html",
+    "summary": "anode · evidence=2"
+  },
+  {
+    "type": "entity",
+    "id": "anod_metal-nitride",
+    "title": "metal nitride",
+    "url": "entities/anod-metal-nitride.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_metal-oxide",
+    "title": "metal oxide",
+    "url": "entities/anod-metal-oxide.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_metal-sulfide",
+    "title": "metal sulfide",
+    "url": "entities/anod-metal-sulfide.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_mn3o4",
+    "title": "mn3o4",
+    "url": "entities/anod-mn3o4.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_nano-carbon",
+    "title": "nano-carbon",
+    "url": "entities/anod-nano-carbon.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_nitrogen-doped-graphene",
+    "title": "nitrogen-doped graphene",
+    "url": "entities/anod-nitrogen-doped-graphene.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_reduced-graphene-oxide",
+    "title": "reduced graphene oxide",
+    "url": "entities/anod-reduced-graphene-oxide.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_rutile-tio2",
+    "title": "rutile tio2",
+    "url": "entities/anod-rutile-tio2.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_silicon-dioxide",
+    "title": "silicon dioxide",
+    "url": "entities/anod-silicon-dioxide.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_silicon-monoxide",
+    "title": "silicon monoxide",
+    "url": "entities/anod-silicon-monoxide.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_silicon-oxide",
+    "title": "silicon oxide",
+    "url": "entities/anod-silicon-oxide.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_silicon-oxycarbide",
+    "title": "silicon oxycarbide",
+    "url": "entities/anod-silicon-oxycarbide.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_sno2",
+    "title": "sno2",
+    "url": "entities/anod-sno2.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_tin",
+    "title": "tin",
+    "url": "entities/anod-tin.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_tin-dioxide",
+    "title": "tin dioxide",
+    "url": "entities/anod-tin-dioxide.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_tin-dioxide-carbon-composite",
+    "title": "tin dioxide carbon composite",
+    "url": "entities/anod-tin-dioxide-carbon-composite.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_tin-metal-carbon-composite",
+    "title": "tin metal carbon composite",
+    "url": "entities/anod-tin-metal-carbon-composite.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_tin-based-anode",
+    "title": "tin-based anode",
+    "url": "entities/anod-tin-based-anode.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_tio2",
+    "title": "tio2",
+    "url": "entities/anod-tio2.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_tio2-b",
+    "title": "tio2 (b)",
+    "url": "entities/anod-tio2-b.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_titanium-dioxide",
+    "title": "titanium dioxide",
+    "url": "entities/anod-titanium-dioxide.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "anod_transition-metal-oxides",
+    "title": "transition-metal oxides",
+    "url": "entities/anod-transition-metal-oxides.html",
+    "summary": "anode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "cath_nmc",
+    "title": "NMC",
+    "url": "entities/cath-nmc.html",
+    "summary": "cathode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "cath_cathode",
+    "title": "cathode",
+    "url": "entities/cath-cathode.html",
+    "summary": "cathode · evidence=5"
+  },
+  {
+    "type": "entity",
+    "id": "cath_high-voltage-cathode",
+    "title": "high-voltage cathode",
+    "url": "entities/cath-high-voltage-cathode.html",
+    "summary": "cathode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "cath_inorganic-cathode",
+    "title": "inorganic cathode",
+    "url": "entities/cath-inorganic-cathode.html",
+    "summary": "cathode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "cath_layered-oxide-cathode",
+    "title": "layered oxide cathode",
+    "url": "entities/cath-layered-oxide-cathode.html",
+    "summary": "cathode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "cath_lithium-iron-phosphate",
+    "title": "lithium iron phosphate",
+    "url": "entities/cath-lithium-iron-phosphate.html",
+    "summary": "cathode · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "other_carbon",
+    "title": "carbon",
+    "url": "entities/other-carbon.html",
+    "summary": "other · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "other_lithium",
+    "title": "lithium",
+    "url": "entities/other-lithium.html",
+    "summary": "other · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "other_porous-electrode",
+    "title": "porous electrode",
+    "url": "entities/other-porous-electrode.html",
+    "summary": "other · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "other_sodium",
+    "title": "sodium",
+    "url": "entities/other-sodium.html",
+    "summary": "other · evidence=1"
+  },
+  {
+    "type": "entity",
+    "id": "sse_solid-state-electrolyte",
+    "title": "solid-state electrolyte",
+    "url": "entities/sse-solid-state-electrolyte.html",
+    "summary": "solid_electrolyte · evidence=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_0e0801004f7a2d33",
+    "title": "sys_0e0801004f7a2d33",
+    "url": "systems/sys-0e0801004f7a2d33.html",
+    "summary": "components=0 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_1a182c80188cf802",
+    "title": "sys_1a182c80188cf802",
+    "url": "systems/sys-1a182c80188cf802.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_2255fbdbeb1486b6",
+    "title": "sys_2255fbdbeb1486b6",
+    "url": "systems/sys-2255fbdbeb1486b6.html",
+    "summary": "components=0 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_23d7b6758a37e655",
+    "title": "sys_23d7b6758a37e655",
+    "url": "systems/sys-23d7b6758a37e655.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_26e699ea1a48422c",
+    "title": "sys_26e699ea1a48422c",
+    "url": "systems/sys-26e699ea1a48422c.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_2707fb01a1d45d79",
+    "title": "sys_2707fb01a1d45d79",
+    "url": "systems/sys-2707fb01a1d45d79.html",
+    "summary": "components=0 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_326e030f4dba0fad",
+    "title": "sys_326e030f4dba0fad",
+    "url": "systems/sys-326e030f4dba0fad.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_3c0eb244a5e86738",
+    "title": "sys_3c0eb244a5e86738",
+    "url": "systems/sys-3c0eb244a5e86738.html",
+    "summary": "components=2 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_3c9ed6eb3089002e",
+    "title": "sys_3c9ed6eb3089002e",
+    "url": "systems/sys-3c9ed6eb3089002e.html",
+    "summary": "components=2 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_40a0a338edbf9212",
+    "title": "sys_40a0a338edbf9212",
+    "url": "systems/sys-40a0a338edbf9212.html",
+    "summary": "components=2 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_46a5201fdc9bb87d",
+    "title": "sys_46a5201fdc9bb87d",
+    "url": "systems/sys-46a5201fdc9bb87d.html",
+    "summary": "components=8 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_5be8dd38d46cefd1",
+    "title": "sys_5be8dd38d46cefd1",
+    "url": "systems/sys-5be8dd38d46cefd1.html",
+    "summary": "components=5 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_6824315860e2a513",
+    "title": "sys_6824315860e2a513",
+    "url": "systems/sys-6824315860e2a513.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_709e5ca0b9c4382a",
+    "title": "sys_709e5ca0b9c4382a",
+    "url": "systems/sys-709e5ca0b9c4382a.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_75f6f78b2971b129",
+    "title": "sys_75f6f78b2971b129",
+    "url": "systems/sys-75f6f78b2971b129.html",
+    "summary": "components=0 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_762eff8c9d8c4fef",
+    "title": "sys_762eff8c9d8c4fef",
+    "url": "systems/sys-762eff8c9d8c4fef.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_77db61cedf0c2407",
+    "title": "sys_77db61cedf0c2407",
+    "url": "systems/sys-77db61cedf0c2407.html",
+    "summary": "components=0 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_7a138a0dbd000858",
+    "title": "sys_7a138a0dbd000858",
+    "url": "systems/sys-7a138a0dbd000858.html",
+    "summary": "components=0 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_8e94016d92fc1d9d",
+    "title": "sys_8e94016d92fc1d9d",
+    "url": "systems/sys-8e94016d92fc1d9d.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_91b6214a973d704d",
+    "title": "sys_91b6214a973d704d",
+    "url": "systems/sys-91b6214a973d704d.html",
+    "summary": "components=2 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_9638fbc6cba3b51a",
+    "title": "sys_9638fbc6cba3b51a",
+    "url": "systems/sys-9638fbc6cba3b51a.html",
+    "summary": "components=1 · sources=2"
+  },
+  {
+    "type": "system",
+    "id": "sys_98551ffbb36ffe7b",
+    "title": "sys_98551ffbb36ffe7b",
+    "url": "systems/sys-98551ffbb36ffe7b.html",
+    "summary": "components=2 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_9ceb78816e06c660",
+    "title": "sys_9ceb78816e06c660",
+    "url": "systems/sys-9ceb78816e06c660.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_a134dcaf8e2630e3",
+    "title": "sys_a134dcaf8e2630e3",
+    "url": "systems/sys-a134dcaf8e2630e3.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_aa1223d4657dbd4c",
+    "title": "sys_aa1223d4657dbd4c",
+    "url": "systems/sys-aa1223d4657dbd4c.html",
+    "summary": "components=4 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_b0fcd4bdd0698702",
+    "title": "sys_b0fcd4bdd0698702",
+    "url": "systems/sys-b0fcd4bdd0698702.html",
+    "summary": "components=2 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_b204750433cd302c",
+    "title": "sys_b204750433cd302c",
+    "url": "systems/sys-b204750433cd302c.html",
+    "summary": "components=0 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_c94f85826c49e94f",
+    "title": "sys_c94f85826c49e94f",
+    "url": "systems/sys-c94f85826c49e94f.html",
+    "summary": "components=2 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_cabf302104e11c08",
+    "title": "sys_cabf302104e11c08",
+    "url": "systems/sys-cabf302104e11c08.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_cd45dc30f3c0e82c",
+    "title": "sys_cd45dc30f3c0e82c",
+    "url": "systems/sys-cd45dc30f3c0e82c.html",
+    "summary": "components=4 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_cf0b009606ab8cee",
+    "title": "sys_cf0b009606ab8cee",
+    "url": "systems/sys-cf0b009606ab8cee.html",
+    "summary": "components=2 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_d093425c83b8c7c9",
+    "title": "sys_d093425c83b8c7c9",
+    "url": "systems/sys-d093425c83b8c7c9.html",
+    "summary": "components=4 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_d748792f638f4c6c",
+    "title": "sys_d748792f638f4c6c",
+    "url": "systems/sys-d748792f638f4c6c.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_da114d3b9691e5b3",
+    "title": "sys_da114d3b9691e5b3",
+    "url": "systems/sys-da114d3b9691e5b3.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_e03773a28a0f4038",
+    "title": "sys_e03773a28a0f4038",
+    "url": "systems/sys-e03773a28a0f4038.html",
+    "summary": "components=0 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_e7dd1c9438f7b8c2",
+    "title": "sys_e7dd1c9438f7b8c2",
+    "url": "systems/sys-e7dd1c9438f7b8c2.html",
+    "summary": "components=0 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_ec34f4ec718b7448",
+    "title": "sys_ec34f4ec718b7448",
+    "url": "systems/sys-ec34f4ec718b7448.html",
+    "summary": "components=0 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_f88391634e146e0c",
+    "title": "sys_f88391634e146e0c",
+    "url": "systems/sys-f88391634e146e0c.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "system",
+    "id": "sys_fc4cc8bf69591aad",
+    "title": "sys_fc4cc8bf69591aad",
+    "url": "systems/sys-fc4cc8bf69591aad.html",
+    "summary": "components=1 · sources=1"
+  },
+  {
+    "type": "property",
+    "id": "cycle_count",
+    "title": "cycle_count",
+    "url": "properties/cycle-count.html",
+    "summary": "claims=2"
+  },
+  {
+    "type": "property",
+    "id": "cycle_retention",
+    "title": "cycle_retention",
+    "url": "properties/cycle-retention.html",
+    "summary": "claims=1"
+  },
+  {
+    "type": "property",
+    "id": "energy_density",
+    "title": "energy_density",
+    "url": "properties/energy-density.html",
+    "summary": "claims=1"
+  },
+  {
+    "type": "property",
+    "id": "initial_capacity",
+    "title": "initial_capacity",
+    "url": "properties/initial-capacity.html",
+    "summary": "claims=2"
+  },
+  {
+    "type": "property",
+    "id": "other",
+    "title": "other",
+    "url": "properties/other.html",
+    "summary": "claims=20"
+  },
+  {
+    "type": "property",
+    "id": "rate_capability",
+    "title": "rate_capability",
+    "url": "properties/rate-capability.html",
+    "summary": "claims=5"
+  },
+  {
+    "type": "property",
+    "id": "reversible_capacity",
+    "title": "reversible_capacity",
+    "url": "properties/reversible-capacity.html",
+    "summary": "claims=9"
+  }
+]

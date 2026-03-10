@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>other · Battery Intelligence Database</title>
+<style>
+    :root {
+      --bg: #0b0d10;
+      --panel: #12161b;
+      --panel2: #171c22;
+      --text: #e8edf3;
+      --muted: #99a4b3;
+      --line: #25303a;
+      --link: #8ab4ff;
+      --accent: #7dd3fc;
+      --badge: #202832;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 24px; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+      margin-bottom: 20px; padding: 16px 18px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+    }
+    .nav .brand { font-weight: 700; margin-right: 10px; }
+    .title { margin: 10px 0 18px; font-size: 1.9rem; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+    .kpi {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+    .kpi .item {
+      background: var(--panel2);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+    }
+    .label { color: var(--muted); font-size: 0.85rem; }
+    .value { font-size: 1.4rem; font-weight: 700; margin-top: 4px; }
+    .section-title { margin: 30px 0 12px; font-size: 1.2rem; }
+    .small { color: var(--muted); font-size: 0.9rem; }
+    .badge {
+      display: inline-block; padding: 4px 10px; border-radius: 999px;
+      background: var(--badge); border: 1px solid var(--line); margin-right: 6px; margin-bottom: 6px; font-size: 0.85rem;
+    }
+    .table-wrap {
+      width: 100%; overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+    }
+    table { width: 100%; border-collapse: collapse; min-width: 700px; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { position: sticky; top: 0; background: var(--panel2); }
+    code.inline {
+      background: var(--panel2); border: 1px solid var(--line); border-radius: 8px; padding: 2px 6px;
+    }
+    .list { display: grid; gap: 8px; }
+    .row {
+      background: var(--panel2); border: 1px solid var(--line); border-radius: 14px; padding: 12px;
+    }
+    .notice {
+      background: #10202a; border: 1px solid #244150; color: #cfefff;
+      border-radius: 14px; padding: 12px;
+    }
+    input.search-box {
+      width: 100%; padding: 12px 14px; border-radius: 12px;
+      border: 1px solid var(--line); background: var(--panel2); color: var(--text);
+    }
+    </style>
+</head>
+<body>
+<div class="wrap">
+
+    <div class="nav">
+      <div class="brand"><a href="../index.html">Battery Intelligence Database</a></div>
+      <a href="../topics/index.html">Topics</a>
+      <a href="../entities/index.html">Entities</a>
+      <a href="../systems/index.html">Systems</a>
+      <a href="../properties/index.html">Properties</a>
+    </div>
+    
+<h1 class="title">other</h1>
+<div class='table-wrap'><table><thead><tr><th>Topic</th><th>Value</th><th>Unit</th><th>Condition</th><th>System</th><th>Source</th></tr></thead><tbody><tr><td>lithium-ion battery</td><td>70</td><td>%</td><td>void volume inside the TNHCs</td><td><a href="../systems/sys-cf0b009606ab8cee.html">sys_cf0b009606ab8cee</a></td><td>Tin‐Nanoparticles Encapsulated in Elastic Hollow Carbon Spheres for High‐Performance Anode Material in Lithium‐Ion Batteries</td></tr><tr><td>lithium-ion battery</td><td>70</td><td>wt%</td><td>tin content</td><td><a href="../systems/sys-cf0b009606ab8cee.html">sys_cf0b009606ab8cee</a></td><td>Tin‐Nanoparticles Encapsulated in Elastic Hollow Carbon Spheres for High‐Performance Anode Material in Lithium‐Ion Batteries</td></tr><tr><td>lithium-ion battery</td><td></td><td>none</td><td>lithium transport inside electrodes</td><td><a href="../systems/sys-326e030f4dba0fad.html">sys_326e030f4dba0fad</a></td><td>Fast Charging of Lithium‐Ion Batteries: A Review of Materials Aspects</td></tr><tr><td>lithium-ion battery</td><td></td><td>N/A</td><td>nanostructuring and advanced compositing</td><td><a href="../systems/sys-5be8dd38d46cefd1.html">sys_5be8dd38d46cefd1</a></td><td>Nanostructured metal oxide-based materials as advanced anodes for lithium-ion batteries</td></tr><tr><td>lithium-ion battery</td><td></td><td>years</td><td>life span</td><td><a href="../systems/sys-6824315860e2a513.html">sys_6824315860e2a513</a></td><td>Development and challenges of LiFePO&lt;sub&gt;4&lt;/sub&gt;cathode material for lithium-ion batteries</td></tr><tr><td>lithium-ion battery</td><td></td><td>N/A</td><td>ion adsorption</td><td><a href="../systems/sys-7a138a0dbd000858.html">sys_7a138a0dbd000858</a></td><td>Two‐Dimensional Materials for Beyond‐Lithium‐Ion Batteries</td></tr><tr><td>lithium-ion battery</td><td></td><td>N/A</td><td>thermal stability</td><td><a href="../systems/sys-6824315860e2a513.html">sys_6824315860e2a513</a></td><td>Development and challenges of LiFePO&lt;sub&gt;4&lt;/sub&gt;cathode material for lithium-ion batteries</td></tr><tr><td>lithium-ion battery</td><td></td><td>N/A</td><td>N/A</td><td><a href="../systems/sys-2707fb01a1d45d79.html">sys_2707fb01a1d45d79</a></td><td>Thermal runaway caused fire and explosion of lithium ion battery</td></tr><tr><td>lithium-ion battery</td><td></td><td>N/A</td><td>negative-electrode application</td><td><a href="../systems/sys-fc4cc8bf69591aad.html">sys_fc4cc8bf69591aad</a></td><td>Nano-sized transition-metal oxides as negative-electrode materials for lithium-ion batteries</td></tr><tr><td>lithium-ion battery</td><td></td><td>N/A</td><td>N/A</td><td><a href="../systems/sys-1a182c80188cf802.html">sys_1a182c80188cf802</a></td><td>Novel lithium insertion material of LiCo1/3Ni1/3Mn1/3O2 for advanced lithium-ion batteries</td></tr><tr><td>lithium-ion battery</td><td></td><td>none</td><td>none</td><td><a href="../systems/sys-d748792f638f4c6c.html">sys_d748792f638f4c6c</a></td><td>Carbon anode materials for lithium ion batteries</td></tr><tr><td>lithium-ion battery</td><td></td><td>none</td><td>general review</td><td><a href="../systems/sys-77db61cedf0c2407.html">sys_77db61cedf0c2407</a></td><td>Towards greener and more sustainable batteries for electrical energy storage</td></tr><tr><td>lithium-ion battery</td><td></td><td>none</td><td>surface reconstruction</td><td><a href="../systems/sys-762eff8c9d8c4fef.html">sys_762eff8c9d8c4fef</a></td><td>Surface reconstruction and chemical evolution of stoichiometric layered cathode materials for lithium-ion batteries</td></tr><tr><td>lithium-ion battery</td><td></td><td>n/a</td><td>solid-state electrolytes</td><td><a href="../systems/sys-f88391634e146e0c.html">sys_f88391634e146e0c</a></td><td>Lithium battery chemistries enabled by solid-state electrolytes</td></tr><tr><td>lithium-ion battery</td><td></td><td>N/A</td><td>nanostructured conversion-type anode materials</td><td><a href="../systems/sys-9ceb78816e06c660.html">sys_9ceb78816e06c660</a></td><td>Nanostructured Conversion-type Anode Materials for Advanced Lithium-Ion Batteries</td></tr><tr><td>lithium-ion battery</td><td></td><td>none</td><td>not specified</td><td><a href="../systems/sys-709e5ca0b9c4382a.html">sys_709e5ca0b9c4382a</a></td><td>A review of application of carbon nanotubes for lithium ion battery anode material</td></tr><tr><td>lithium-ion battery</td><td></td><td>none</td><td>not specified</td><td><a href="../systems/sys-cabf302104e11c08.html">sys_cabf302104e11c08</a></td><td>Anode materials for lithium-ion batteries: A review</td></tr><tr><td>lithium-ion battery</td><td></td><td>none</td><td>not specified</td><td><a href="../systems/sys-9638fbc6cba3b51a.html">sys_9638fbc6cba3b51a</a></td><td>An overview of positive-electrode materials for advanced lithium-ion batteries</td></tr><tr><td>lithium-ion battery</td><td></td><td>none</td><td>review article</td><td><a href="../systems/sys-23d7b6758a37e655.html">sys_23d7b6758a37e655</a></td><td>Graphene in lithium ion battery cathode materials: A review</td></tr><tr><td>lithium-ion battery</td><td></td><td>none</td><td>not specified</td><td><a href="../systems/sys-9638fbc6cba3b51a.html">sys_9638fbc6cba3b51a</a></td><td>Recent developments in cathode materials for lithium ion batteries</td></tr></tbody></table></div>
+</div>
+</body>
+</html>
